@@ -11,7 +11,6 @@ mod ast;
 fn main() -> std::io::Result<()> {
     let mut inter = Interpreter::new();
 
-    //println!("{}", inter.interpret("17+114/32-89*13-51/52-12"))
     inter.console()?;
 
     return Ok(());
